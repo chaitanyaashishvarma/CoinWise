@@ -1,73 +1,85 @@
- 🪙 CoinWise
-CoinWise is a web-based smart optimization tool that compares Greedy and Dynamic Programming (DP) approaches to determine the minimum number of coins required for a given amount.
+📘 CoinWise
+🚀 Overview
 
-Built using C, Node.js, and a modern web interface, CoinWise highlights optimal vs non-optimal solutions while maintaining computation history for analysis.
+CoinWise is a cryptocurrency-focused application designed to help users understand, track, and interact with digital assets efficiently. It provides real-time insights, educational resources, and tools to simplify decision-making in the crypto ecosystem.
 
-🚀 Features
-🪙 Real-time comparison of Greedy vs Dynamic Programming
-📊 Interactive dashboard with clear result visualization
-💾 History tracking with export functionality
-⚡ High-performance C-based computation engine
-🪟 Cross-platform support (Windows, Linux, macOS)
-✅ Strong input validation and error handling
+The platform aims to bridge the gap between complex blockchain concepts and everyday users by offering an intuitive and user-friendly interface.
+
+🎯 Features
+📊 Real-time cryptocurrency tracking
+📈 Market trends and analytics
+🧠 Educational content for beginners
+💰 Portfolio management system
+🔔 Price alerts and notifications
+🌐 User-friendly dashboard
 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js (Express)
-Core Engine: C Programming
-▶️ Getting Started
-🔹 Clone the Repository
-git clone https://github.com/your-username/CoinWise.git
-cd CoinWise
-🔹 Install Backend Dependencies
-cd backend
-npm install
-🔹 Start the Server
-npm start
-🔹 Open in Browser
-http://localhost:3000
+Frontend: React.js / HTML / CSS
+Backend: Node.js / Express.js
+Database: MongoDB
+APIs: Crypto market APIs (CoinGecko / CoinMarketCap)
 📂 Project Structure
 CoinWise/
-│
-├── backend/              # Node.js Express server
-│   ├── server.js         # API & routing
-│   ├── package.json
-│   └── package-lock.json
-│
-├── c_program/            # Core algorithm engine
-│   ├── coin_optimizer.c  # Greedy & DP logic
-│   ├── Makefile          # Build configuration
-│   └── history.txt       # Auto-generated history
-│
-├── frontend/             # User interface
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
-⚙️ How It Works
-Frontend: Collects user input and displays comparison results
+│── client/          # Frontend code
+│── server/          # Backend code
+│── models/          # Database schemas
+│── routes/          # API routes
+│── controllers/     # Business logic
+│── config/          # Configuration files
+│── package.json
+│── README.md
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/Vikas123-star/CoinWise.git
+cd CoinWise
+2. Install dependencies
+npm install
+cd client
+npm install
+3. Setup environment variables
 
-Backend (Node.js): Handles API requests and communicates with the C executable
+Create a .env file in the root directory:
 
-C Program: Executes:
+MONGO_URI=your_mongodb_connection
+API_KEY=your_crypto_api_key
+PORT=5000
+4. Run the project
+# Run backend
+npm run server
 
-Greedy algorithm
-Dynamic Programming algorithm
-History System: Stores all computations in history.txt
+# Run frontend
+cd client
+npm start
+📸 Screenshots
 
-🧮 Algorithm Details
-🔹 Greedy Approach
-Selects the largest coin first
-Faster execution
-❌ May not produce optimal result
-🔹 Dynamic Programming
-Uses subproblems to compute minimum coins
-✅ Always produces optimal result
-Slightly higher computation cost
-🌟 Future Enhancements
-📈 Graph-based performance comparison
-📱 Fully responsive mobile UI
-🔐 User authentication system
-☁️ Cloud deployment improvements
-📜 License
+(Add your project screenshots here)
+
+📊 Usage
+Track cryptocurrency prices in real-time
+Analyze market trends
+Manage your crypto portfolio
+Learn blockchain basics
+🔒 Security
+Secure API integration
+Environment variable protection
+Input validation
+🧑‍💻 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+Create a new branch
+Make your changes
+Submit a pull request
+📌 Future Improvements
+🤖 AI-based price prediction
+📱 Mobile app support
+🌍 Multi-language support
+🔗 Wallet integration
+📄 License
+
 This project is licensed under the MIT License.
+
+🙌 Acknowledgements
+Open-source community
+Crypto API providers
+Contributors and testers

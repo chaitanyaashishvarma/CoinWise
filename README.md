@@ -1,3 +1,4 @@
+
 # 🪙 CoinWise
 
 **CoinWise** is a web-based smart optimization tool that compares **Greedy** and **Dynamic Programming (DP)** approaches to determine the **minimum number of coins** required for a given amount.
